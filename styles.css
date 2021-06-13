@@ -1,0 +1,173 @@
+img {
+  max-width: 100%;
+}
+
+hr {
+  margin: 0;
+  border-top: solid 1px #5f6969;
+  height: 1px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.centerclass {
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navigation Bar - START */
+
+.Navigation-Bar {
+  background-color: #f3f4ed;
+  border-bottom: 6px #c06014 solid;
+}
+
+.navbar-urejanje {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+.navbar-logotip {
+  max-width: 76px;
+}
+
+.navbar-text-urejanje {
+  justify-content: flex-end;
+  padding-right: 92px;
+}
+
+.nav-item-urejanje {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .flex-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+.navbar-border:hover {
+  border-top: 5px #c06014 solid;
+}
+
+.navbar-border {
+  border-top: 5px #f3f4ed solid;
+}
+
+.nav-link-urejanje {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Navigation Bar - END */
+
+/* Dobrodošlica - START */
+
+.dobrodoslica {
+  background-image: url("Images/dobrodoslica.png");
+  background-size: cover;
+  height: 870px;
+  align-items: center;
+  text-align: center;
+  border-bottom: 6px #c06014 solid;
+}
+
+.dobrodoslica-text {
+  color: #f3f4ed;
+  font-size: 66px;
+  font-weight: bold;
+}
+
+.dobrodoslica-random-text {
+  color: #f3f4ed;
+  font-size: 26px;
+}
+
+/* Dobrodošlica - END */
+
+/* Aktualne Novice - START */
+
+.Novice {
+  background-color: #f3f4ed;
+  border-bottom: 6px #c06014 solid;
+}
+
+.aktualne-novice-title {
+  align-items: center;
+  text-align: center;
+}
+
+.aktualne-novice {
+  padding-top: 66px;
+  padding-bottom: 66px;
+  font-weight: bold;
+  font-size: 36px;
+  color: #424642;
+}
+
+.topic-title {
+  font-size: 22px;
+  color: #536162;
+  font-weight: bold;
+}
+
+.topic-link:link, .topic-link:visited {
+  color: #536162;
+  font-weight: bold;
+}
+
+.topic-link:hover, .topic-link:active {
+  color: #c06014;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.two-topics {
+  padding-top: 38px;
+}
+
+.topics-layer {
+  padding-bottom: 66px;
+}
+
+/* Aktualne Novice - END */
+
+/* Footer - START */
+
+.Footer {
+  background-color: #536162;
+  color: #f3f4ed;
+  padding-top: 32px;
+}
+
+.naslov-sole {
+  font-weight: bold;
+}
+
+/* Footer - END */
+
+/* Copyright - START */
+
+.Copyright {
+  padding-top: 16px;
+  background-color: #424642;
+  color: #f3f4ed;
+}
+
+/* Copyright - END */
+
+/* Media Query - START */
+
+@media screen and (max-width: 992px) {
+  .navbar .flex-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+/* Media Query - END */
